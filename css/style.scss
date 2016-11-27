@@ -33,8 +33,42 @@ a, a:hover{
     .transparent{
       background:transparent;
       border:none;
+      #menu_line1,#menu_line2,#menu_line3,#menu_line4,#menu_line5,#menu_line6{
+        height:3px;
+        background-color: #0081ff;
+        opacity:0
+      }
+      #menu_link1:hover{
+        #menu_line1 {
+          opacity: 1;
+        }
+      }
+      #menu_link2:hover{
+        #menu_line2 {
+          opacity: 1;
+        }
+      }
+      #menu_link3:hover{
+        #menu_line3 {
+          opacity: 1;
+        }
+      }
+      #menu_link4:hover{
+        #menu_line4 {
+          opacity: 1;
+        }
+      }
+      #menu_link5:hover{
+        #menu_line5 {
+          opacity: 1;
+        }
+      }
+      #menu_link6:hover{
+        #menu_line6 {
+          opacity: 1;
+        }
+      }
       a:hover {
-        border-top:3px solid #0081ff;
         color:#fff;
       }
       .navbar-brand{
@@ -373,17 +407,7 @@ a, a:hover{
         font-size:2em;
         padding-bottom: 2em;
       }
-      .btn_footer{
-        background-color: #0280F8;
-        margin-top:1em;
-        margin-left:5em;
-        margin-left:9em;
-        color:#fff;
-        border-radius: 1.5em;
-        border:none;
-        font-size:0.8em;
-        padding:0.7em 2em;
-      }
+
       .form-control:focus {
         border-color: #2b2b2b;
         box-shadow: inset 0 1px 1px rgba(43, 43, 43, 0.07), 0 0 8px rgba(97, 105, 74, 0.6);
@@ -405,6 +429,16 @@ a, a:hover{
         textarea{
           resize: none;
           padding:2em 0;
+        }
+        .btn_footer{
+          background-color: #0280F8;
+          margin-top:1em;
+          margin-left:2.3em;
+          color:#fff;
+          border-radius: 1.5em;
+          border:none;
+          font-size:0.8em;
+          padding:0.7em 2em;
         }
       }
     }/*footer_right*/

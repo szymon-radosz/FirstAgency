@@ -35,8 +35,23 @@ a, a:hover {
     .jumbotron .header .transparent {
       background: transparent;
       border: none; }
+      .jumbotron .header .transparent #menu_line1, .jumbotron .header .transparent #menu_line2, .jumbotron .header .transparent #menu_line3, .jumbotron .header .transparent #menu_line4, .jumbotron .header .transparent #menu_line5, .jumbotron .header .transparent #menu_line6 {
+        height: 3px;
+        background-color: #0081ff;
+        opacity: 0; }
+      .jumbotron .header .transparent #menu_link1:hover #menu_line1 {
+        opacity: 1; }
+      .jumbotron .header .transparent #menu_link2:hover #menu_line2 {
+        opacity: 1; }
+      .jumbotron .header .transparent #menu_link3:hover #menu_line3 {
+        opacity: 1; }
+      .jumbotron .header .transparent #menu_link4:hover #menu_line4 {
+        opacity: 1; }
+      .jumbotron .header .transparent #menu_link5:hover #menu_line5 {
+        opacity: 1; }
+      .jumbotron .header .transparent #menu_link6:hover #menu_line6 {
+        opacity: 1; }
       .jumbotron .header .transparent a:hover {
-        border-top: 3px solid #0081ff;
         color: #fff; }
       .jumbotron .header .transparent .navbar-brand h3 {
         font-weight: 700;
@@ -294,16 +309,6 @@ a, a:hover {
         font-weight: 700;
         font-size: 2em;
         padding-bottom: 2em; }
-      .jumbotron .footer .footer_right .btn_footer {
-        background-color: #0280F8;
-        margin-top: 1em;
-        margin-left: 5em;
-        margin-left: 9em;
-        color: #fff;
-        border-radius: 1.5em;
-        border: none;
-        font-size: 0.8em;
-        padding: 0.7em 2em; }
       .jumbotron .footer .footer_right .form-control:focus {
         border-color: #2b2b2b;
         box-shadow: inset 0 1px 1px rgba(43, 43, 43, 0.07), 0 0 8px rgba(97, 105, 74, 0.6); }
@@ -320,6 +325,15 @@ a, a:hover {
       .jumbotron .footer .footer_right .form-group textarea {
         resize: none;
         padding: 2em 0; }
+      .jumbotron .footer .footer_right .form-group .btn_footer {
+        background-color: #0280F8;
+        margin-top: 1em;
+        margin-left: 2.3em;
+        color: #fff;
+        border-radius: 1.5em;
+        border: none;
+        font-size: 0.8em;
+        padding: 0.7em 2em; }
     .jumbotron .footer .footer_icons {
       text-align: center;
       color: #fff; }
