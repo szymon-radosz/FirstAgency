@@ -16,6 +16,7 @@ a, a:hover {
 .jumbotron {
   margin: 0;
   padding: 0;
+  /*nav*/
   /* header */
   /* profiles */
   /*clients */
@@ -23,6 +24,41 @@ a, a:hover {
   /*services*/
   /*who*/
   /*footer*/ }
+  .jumbotron .transparent {
+    background: transparent;
+    border: none;
+    padding: 0 9em; }
+    .jumbotron .transparent .navbar-default .navbar-nav > li > a {
+      color: #fff; }
+    .jumbotron .transparent #menu_line1, .jumbotron .transparent #menu_line2, .jumbotron .transparent #menu_line3, .jumbotron .transparent #menu_line4, .jumbotron .transparent #menu_line5, .jumbotron .transparent #menu_line6 {
+      height: 3px;
+      background-color: #0081ff;
+      opacity: 0; }
+    .jumbotron .transparent #menu_link1:hover #menu_line1 {
+      opacity: 1; }
+    .jumbotron .transparent #menu_link2:hover #menu_line2 {
+      opacity: 1; }
+    .jumbotron .transparent #menu_link3:hover #menu_line3 {
+      opacity: 1; }
+    .jumbotron .transparent #menu_link4:hover #menu_line4 {
+      opacity: 1; }
+    .jumbotron .transparent #menu_link5:hover #menu_line5 {
+      opacity: 1; }
+    .jumbotron .transparent #menu_link6:hover #menu_line6 {
+      opacity: 1; }
+    .jumbotron .transparent a:hover {
+      color: #fff; }
+    .jumbotron .transparent .navbar-brand h3 {
+      font-weight: 700;
+      font-size: 2em;
+      color: #fff; }
+      .jumbotron .transparent .navbar-brand h3 span {
+        color: #0081ff; }
+    .jumbotron .transparent .navbar-brand:hover {
+      border-top: none; }
+    .jumbotron .transparent a {
+      font-size: 0.8em;
+      color: #fff; }
   .jumbotron .header {
     background: url(../images/header_bg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -30,40 +66,8 @@ a, a:hover {
     -o-background-size: cover;
     background-size: cover;
     margin: 0;
-    padding: 0 10em;
+    padding: 6em 10em 0 10em;
     height: 100vh; }
-    .jumbotron .header .transparent {
-      background: transparent;
-      border: none; }
-      .jumbotron .header .transparent #menu_line1, .jumbotron .header .transparent #menu_line2, .jumbotron .header .transparent #menu_line3, .jumbotron .header .transparent #menu_line4, .jumbotron .header .transparent #menu_line5, .jumbotron .header .transparent #menu_line6 {
-        height: 3px;
-        background-color: #0081ff;
-        opacity: 0; }
-      .jumbotron .header .transparent #menu_link1:hover #menu_line1 {
-        opacity: 1; }
-      .jumbotron .header .transparent #menu_link2:hover #menu_line2 {
-        opacity: 1; }
-      .jumbotron .header .transparent #menu_link3:hover #menu_line3 {
-        opacity: 1; }
-      .jumbotron .header .transparent #menu_link4:hover #menu_line4 {
-        opacity: 1; }
-      .jumbotron .header .transparent #menu_link5:hover #menu_line5 {
-        opacity: 1; }
-      .jumbotron .header .transparent #menu_link6:hover #menu_line6 {
-        opacity: 1; }
-      .jumbotron .header .transparent a:hover {
-        color: #fff; }
-      .jumbotron .header .transparent .navbar-brand h3 {
-        font-weight: 700;
-        font-size: 2em;
-        color: #fff; }
-        .jumbotron .header .transparent .navbar-brand h3 span {
-          color: #0081ff; }
-      .jumbotron .header .transparent .navbar-brand:hover {
-        border-top: none; }
-      .jumbotron .header .transparent a {
-        font-size: 0.8em;
-        color: #fff; }
     .jumbotron .header .header_text {
       padding-left: 0; }
       .jumbotron .header .header_text h3 {
@@ -334,6 +338,8 @@ a, a:hover {
         border: none;
         font-size: 0.8em;
         padding: 0.7em 2em; }
+      .jumbotron .footer .footer_right .form-group .btn_footer:hover {
+        background-color: #39a3f8; }
     .jumbotron .footer .footer_icons {
       text-align: center;
       color: #fff; }
