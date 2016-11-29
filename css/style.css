@@ -476,7 +476,7 @@ a, a:hover {
       .jumbotron .footer .footer_left .info_section .footer_info_icon {
         margin-top: 0; }
         .jumbotron .footer .footer_left .info_section .footer_info_icon .footer_left_text {
-          margin-top: 0 !important; }
+          margin-top: 0; }
       .jumbotron .footer .footer_right {
         padding-left: 0; } }
 /* 500px*/
@@ -545,7 +545,7 @@ a, a:hover {
     .jumbotron .header .header_image #dancer {
       display: none; }
     .jumbotron .who .who_right {
-      padding-left: 0 !important; }
+      padding-left: 0; }
     .jumbotron .who .btn_who {
       margin-bottom: 2em; }
     .jumbotron .services .service_section {
@@ -560,7 +560,7 @@ a, a:hover {
     .jumbotron .clients .logo {
       margin-bottom: 2.5em; }
     .jumbotron .blog .blog_left {
-      padding-right: 0 !important; }
+      padding-right: 0; }
       .jumbotron .blog .blog_left .black_rect {
         margin-bottom: 2em; }
     .jumbotron .blog .blog_right {
