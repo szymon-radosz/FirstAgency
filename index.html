@@ -343,36 +343,8 @@
       </div>
     </div><!-- footer -->
   </div><!-- container -->
-  <script>
-      $('a[href^="#"]').on('click', function(event) {
-
-          var target = $(this.getAttribute('href'));
-
-          if( target.length ) {
-              event.preventDefault();
-              $('html, body').stop().animate({
-                  scrollTop: target.offset().top
-              }, 1300);
-          }
-      });
-  </script>
-  <script>
-      $(document).ready(function(){
-          var scroll_start = 0;
-          var startchange = $('#who');
-          var offset = startchange.offset();
-          if (startchange.length){
-              $(document).scroll(function() {
-                  scroll_start = $(this).scrollTop();
-                  if(scroll_start > offset.top) {
-                      $(".navbar-default").css('background-color', '#BEBEBE');
-                  } else {
-                      $('.navbar-default').css('background-color', 'transparent');
-                  }
-              });
-          }
-      });
-  </script>
+  <script src="js/scrool.js"></script>
+  <script src="js/menu.js"></script>
 </body>
 </html>
 
