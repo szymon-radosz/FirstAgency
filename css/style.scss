@@ -1,84 +1,40 @@
+$white : #ffffff;
 *{
   font-family: 'Montserrat', sans-serif;
 }
-
 body{
-  color: #fff;
+  color: $white;
   padding:0;
   margin:0;
 }
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #fff;  /*Sets the text hover color on navbar*/
+a,a:hover,a:active,.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: $white;  /*Sets the text hover color on navbar*/
 }
-
-.navbar-default .navbar-nav > li > a{
-  color:#fff;
-}
-
-a,a:hover,a:active{
-  color:#fff;
-}
-
-
-
 .lecerli{
   font-family: 'Leckerli One', cursive;
 }
-
+.btn{
+  color:$white;
+}
 .jumbotron{
   margin:0;
   padding:0;
-
   .transparent{
     background:transparent;
     border:none;
     padding: 0 9em;
-    .navbar-default .navbar-nav>li>a{
-      color:#fff;
-    }
     #menu_line1,#menu_line2,#menu_line3,#menu_line4,#menu_line5,#menu_line6{
       height:3px;
       background-color: #0081ff;
-      opacity:0
+      opacity:0;
     }
-    #menu_link1:hover{
-      #menu_line1 {
+    #menu_link1:hover > #menu_line1, #menu_link2:hover > #menu_line2, #menu_link3:hover > #menu_line3, #menu_link4:hover > #menu_line4, #menu_link5:hover > #menu_line5, #menu_link6:hover > #menu_line6{
         opacity: 1;
-      }
-    }
-    #menu_link2:hover{
-      #menu_line2 {
-        opacity: 1;
-      }
-    }
-    #menu_link3:hover{
-      #menu_line3 {
-        opacity: 1;
-      }
-    }
-    #menu_link4:hover{
-      #menu_line4 {
-        opacity: 1;
-      }
-    }
-    #menu_link5:hover{
-      #menu_line5 {
-        opacity: 1;
-      }
-    }
-    #menu_link6:hover{
-      #menu_line6 {
-        opacity: 1;
-      }
-    }
-    a:hover {
-      color:#fff;
     }
     .navbar-brand{
       h3{
         font-weight: 700;
         font-size:2em;
-        color:#fff;
         span{
           color: #0081ff;
         }
@@ -89,7 +45,6 @@ a,a:hover,a:active{
     }
     a{
       font-size:0.8em;
-      color:#fff;
     }
   }/*nav*/
 
@@ -125,9 +80,7 @@ a,a:hover,a:active{
       }
       .btn_header{
         background-color: #00AEED;
-        margin-top:1em;
-        margin-left:0.3em;
-        color:#fff;
+        margin: 1em 0 0 .3em;
         border-radius: 1.5em;
         border:none;
         font-size:0.8em;
@@ -146,7 +99,6 @@ a,a:hover,a:active{
   }/* header */
 
   .profiles{
-    background-color:#fff;
     h3,h2{
       text-align: center;
     }
@@ -190,7 +142,6 @@ a,a:hover,a:active{
   }/* profiles */
 
   .clients{
-    color:#fff;
     background:url(../images/mountain_bg.png)no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -220,7 +171,6 @@ a,a:hover,a:active{
   .blog{
     padding:5em 10em 6em 10em;
     text-align: center;
-    background-color: #fff;
     .blog_left{
       .blue_rect:hover,.gray_rect:hover,.black_rect:hover{
         cursor: pointer;
@@ -244,7 +194,6 @@ a,a:hover,a:active{
         }
       }
       .blue_rect{
-        color:#fff;
         background-color: #007EF9;
         padding:2em 1.2em 0.005em 1.2em;
         h5{
@@ -264,9 +213,7 @@ a,a:hover,a:active{
         }
       }
       .black_rect{
-        color:#fff;
-        margin-top:2em;
-        margin-left:1em;
+        margin:2em 0 0 1em;
         width:46.5%;
         background-color: #000;
         padding:1.2em 0 2.8em 0;
@@ -296,7 +243,6 @@ a,a:hover,a:active{
         }
       }
       .pink_rect{
-        color:#fff;
         background-color: #E91D62;
         margin-top:2em;
         padding:1.2em;
@@ -319,9 +265,8 @@ a,a:hover,a:active{
       text-align: center;
     }
     h3{
-      padding-top:2em;
+      padding: 2em 0 .2em 0;
       margin:0;
-      padding-bottom:0.2em;
     }
     h2{
       font-weight: 700;
@@ -356,7 +301,6 @@ a,a:hover,a:active{
       .btn_who{
         margin-top:1em;
         background-color: #3C4270;
-        color:#fff;
         border-radius: 1.5em;
         border:none;
         font-size:0.8em;
@@ -417,7 +361,6 @@ a,a:hover,a:active{
         font-weight: 700;
         font-size:2em;
       }
-
       .form-control:focus {
         border-color: #2b2b2b;
         box-shadow: inset 0 1px 1px rgba(43, 43, 43, 0.07), 0 0 8px rgba(97, 105, 74, 0.6);
@@ -433,8 +376,7 @@ a,a:hover,a:active{
           border-radius:2em;
         }
         input{
-          padding-top:0;
-          padding-bottom:0;
+          padding:0;
         }
         textarea{
           resize: none;
@@ -442,9 +384,7 @@ a,a:hover,a:active{
         }
         .btn_footer{
           background-color: #0280F8;
-          margin-top:1em;
-          margin-left:2.3em;
-          color:#fff;
+          margin:1em 0 2.3em 0;
           border-radius: 1.5em;
           border:none;
           font-size:0.8em;
@@ -457,22 +397,20 @@ a,a:hover,a:active{
     }/*footer_right*/
     .footer_icons{
       text-align:center;
-      color:#fff;
       i:hover{
-        color:#fff;
+        color:$white;
       }
-
       .social_icon{
         font-size: 1.6em;
         width: 2.5em;
         text-align: center;
         padding-top:0.4em;
         line-height: 1.6em;
-        color: #fff;
+        color: $white;
         border-radius: 50%;
         display: inline-block;
         height:2.5em;
-        border:2px solid #fff;
+        border:2px solid $white;
         margin:0.5em;
       }
       .social_icon:hover{

@@ -2,22 +2,19 @@
   font-family: 'Montserrat', sans-serif; }
 
 body {
-  color: #fff;
+  color: #ffffff;
   padding: 0;
   margin: 0; }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #fff;
+a, a:hover, a:active, .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
   /*Sets the text hover color on navbar*/ }
-
-.navbar-default .navbar-nav > li > a {
-  color: #fff; }
-
-a, a:hover, a:active {
-  color: #fff; }
 
 .lecerli {
   font-family: 'Leckerli One', cursive; }
+
+.btn {
+  color: #ffffff; }
 
 .jumbotron {
   margin: 0;
@@ -34,37 +31,21 @@ a, a:hover, a:active {
     background: transparent;
     border: none;
     padding: 0 9em; }
-    .jumbotron .transparent .navbar-default .navbar-nav > li > a {
-      color: #fff; }
     .jumbotron .transparent #menu_line1, .jumbotron .transparent #menu_line2, .jumbotron .transparent #menu_line3, .jumbotron .transparent #menu_line4, .jumbotron .transparent #menu_line5, .jumbotron .transparent #menu_line6 {
       height: 3px;
       background-color: #0081ff;
       opacity: 0; }
-    .jumbotron .transparent #menu_link1:hover #menu_line1 {
+    .jumbotron .transparent #menu_link1:hover > #menu_line1, .jumbotron .transparent #menu_link2:hover > #menu_line2, .jumbotron .transparent #menu_link3:hover > #menu_line3, .jumbotron .transparent #menu_link4:hover > #menu_line4, .jumbotron .transparent #menu_link5:hover > #menu_line5, .jumbotron .transparent #menu_link6:hover > #menu_line6 {
       opacity: 1; }
-    .jumbotron .transparent #menu_link2:hover #menu_line2 {
-      opacity: 1; }
-    .jumbotron .transparent #menu_link3:hover #menu_line3 {
-      opacity: 1; }
-    .jumbotron .transparent #menu_link4:hover #menu_line4 {
-      opacity: 1; }
-    .jumbotron .transparent #menu_link5:hover #menu_line5 {
-      opacity: 1; }
-    .jumbotron .transparent #menu_link6:hover #menu_line6 {
-      opacity: 1; }
-    .jumbotron .transparent a:hover {
-      color: #fff; }
     .jumbotron .transparent .navbar-brand h3 {
       font-weight: 700;
-      font-size: 2em;
-      color: #fff; }
+      font-size: 2em; }
       .jumbotron .transparent .navbar-brand h3 span {
         color: #0081ff; }
     .jumbotron .transparent .navbar-brand:hover {
       border-top: none; }
     .jumbotron .transparent a {
-      font-size: 0.8em;
-      color: #fff; }
+      font-size: 0.8em; }
   .jumbotron .header {
     background: url(../images/head.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -91,9 +72,7 @@ a, a:hover, a:active {
         padding: 2em 0 3em 0.3em; }
       .jumbotron .header .header_text .btn_header {
         background-color: #00AEED;
-        margin-top: 1em;
-        margin-left: 0.3em;
-        color: #fff;
+        margin: 1em 0 0 .3em;
         border-radius: 1.5em;
         border: none;
         font-size: 0.8em;
@@ -103,41 +82,38 @@ a, a:hover, a:active {
     .jumbotron .header .header_image #dancer {
       width: 100%;
       padding-top: 2em; }
-  .jumbotron .profiles {
-    background-color: #fff; }
-    .jumbotron .profiles h3, .jumbotron .profiles h2 {
-      text-align: center; }
-    .jumbotron .profiles h3 {
-      color: #565656;
-      padding-top: 2em;
-      font-size: 1.8em;
-      margin-bottom: 0; }
-    .jumbotron .profiles h2 {
-      color: #000;
-      font-weight: 700;
-      font-size: 1.9em;
-      padding-bottom: 0.5em; }
-    .jumbotron .profiles .col-sm-6, .jumbotron .profiles .col-sm-3 {
-      padding: 0; }
-    .jumbotron .profiles .profile_image {
-      width: 100%;
-      padding: 0;
-      margin: 0;
-      -webkit-filter: brightness(100%); }
-    .jumbotron .profiles .profile_image:hover {
-      -webkit-filter: brightness(60%);
-      -webkit-transition: all 1s ease;
-      -moz-transition: all 1s ease;
-      -o-transition: all 1s ease;
-      transition: all 1s ease; }
-    .jumbotron .profiles .profile_image_1, .jumbotron .profiles .profile_image_5 {
-      height: 17em; }
-    .jumbotron .profiles .profile_image_2, .jumbotron .profiles .profile_image_3, .jumbotron .profiles .profile_image_6 {
-      height: 10em; }
-    .jumbotron .profiles .profile_image_4 {
-      height: 27em; }
+  .jumbotron .profiles h3, .jumbotron .profiles h2 {
+    text-align: center; }
+  .jumbotron .profiles h3 {
+    color: #565656;
+    padding-top: 2em;
+    font-size: 1.8em;
+    margin-bottom: 0; }
+  .jumbotron .profiles h2 {
+    color: #000;
+    font-weight: 700;
+    font-size: 1.9em;
+    padding-bottom: 0.5em; }
+  .jumbotron .profiles .col-sm-6, .jumbotron .profiles .col-sm-3 {
+    padding: 0; }
+  .jumbotron .profiles .profile_image {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-filter: brightness(100%); }
+  .jumbotron .profiles .profile_image:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; }
+  .jumbotron .profiles .profile_image_1, .jumbotron .profiles .profile_image_5 {
+    height: 17em; }
+  .jumbotron .profiles .profile_image_2, .jumbotron .profiles .profile_image_3, .jumbotron .profiles .profile_image_6 {
+    height: 10em; }
+  .jumbotron .profiles .profile_image_4 {
+    height: 27em; }
   .jumbotron .clients {
-    color: #fff;
     background: url(../images/mountain_bg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -162,7 +138,6 @@ a, a:hover, a:active {
   .jumbotron .blog {
     padding: 5em 10em 6em 10em;
     text-align: center;
-    background-color: #fff;
     /*blog_left*/
     /*blog_right*/ }
     .jumbotron .blog .blog_left .blue_rect:hover, .jumbotron .blog .blog_left .gray_rect:hover, .jumbotron .blog .blog_left .black_rect:hover {
@@ -182,7 +157,6 @@ a, a:hover, a:active {
         font-size: 1em;
         padding-bottom: 2em; }
     .jumbotron .blog .blog_left .blue_rect {
-      color: #fff;
       background-color: #007EF9;
       padding: 2em 1.2em 0.005em 1.2em; }
       .jumbotron .blog .blog_left .blue_rect h5 {
@@ -198,9 +172,7 @@ a, a:hover, a:active {
       .jumbotron .blog .blog_left .gray_rect h4 {
         font-weight: 700; }
     .jumbotron .blog .blog_left .black_rect {
-      color: #fff;
-      margin-top: 2em;
-      margin-left: 1em;
+      margin: 2em 0 0 1em;
       width: 46.5%;
       background-color: #000;
       padding: 1.2em 0 2.8em 0; }
@@ -221,7 +193,6 @@ a, a:hover, a:active {
       .jumbotron .blog .blog_right .back_rect h2 {
         padding-top: 2em; }
     .jumbotron .blog .blog_right .pink_rect {
-      color: #fff;
       background-color: #E91D62;
       margin-top: 2em;
       padding: 1.2em; }
@@ -237,9 +208,8 @@ a, a:hover, a:active {
     .jumbotron .services h3, .jumbotron .services h2 {
       text-align: center; }
     .jumbotron .services h3 {
-      padding-top: 2em;
-      margin: 0;
-      padding-bottom: 0.2em; }
+      padding: 2em 0 .2em 0;
+      margin: 0; }
     .jumbotron .services h2 {
       font-weight: 700;
       font-size: 1.9em;
@@ -267,7 +237,6 @@ a, a:hover, a:active {
       .jumbotron .who .who_left .btn_who {
         margin-top: 1em;
         background-color: #3C4270;
-        color: #fff;
         border-radius: 1.5em;
         border: none;
         font-size: 0.8em;
@@ -325,16 +294,13 @@ a, a:hover, a:active {
         border: none;
         border-radius: 2em; }
       .jumbotron .footer .footer_right .form-group input {
-        padding-top: 0;
-        padding-bottom: 0; }
+        padding: 0; }
       .jumbotron .footer .footer_right .form-group textarea {
         resize: none;
         height: 100px; }
       .jumbotron .footer .footer_right .form-group .btn_footer {
         background-color: #0280F8;
-        margin-top: 1em;
-        margin-left: 2.3em;
-        color: #fff;
+        margin: 1em 0 2.3em 0;
         border-radius: 1.5em;
         border: none;
         font-size: 0.8em;
@@ -342,21 +308,20 @@ a, a:hover, a:active {
       .jumbotron .footer .footer_right .form-group .btn_footer:hover {
         background-color: #39a3f8; }
     .jumbotron .footer .footer_icons {
-      text-align: center;
-      color: #fff; }
+      text-align: center; }
       .jumbotron .footer .footer_icons i:hover {
-        color: #fff; }
+        color: #ffffff; }
       .jumbotron .footer .footer_icons .social_icon {
         font-size: 1.6em;
         width: 2.5em;
         text-align: center;
         padding-top: 0.4em;
         line-height: 1.6em;
-        color: #fff;
+        color: #ffffff;
         border-radius: 50%;
         display: inline-block;
         height: 2.5em;
-        border: 2px solid #fff;
+        border: 2px solid #ffffff;
         margin: 0.5em; }
       .jumbotron .footer .footer_icons .social_icon:hover {
         background-color: #0280F8;
