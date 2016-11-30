@@ -250,8 +250,7 @@ a, a:hover {
     /*who_left*/
     /*who_right*/ }
     .jumbotron .who .who_left {
-      padding-left: 0;
-      padding-right: 4em; }
+      padding-left: 0; }
       .jumbotron .who .who_left h2 {
         font-size: 2em;
         font-weight: 700; }
@@ -269,10 +268,8 @@ a, a:hover {
         padding: 0.7em 2em; }
       .jumbotron .who .who_left .btn_who:hover {
         background-color: #505691; }
-    .jumbotron .who .who_right {
-      padding-left: 4em; }
-      .jumbotron .who .who_right p {
-        font-size: 0.9em; }
+    .jumbotron .who .who_right p {
+      font-size: 0.9em; }
   .jumbotron .footer {
     padding: 4em 10em 4em 10em;
     background: url(../images/footer.png) no-repeat center center fixed;
@@ -310,8 +307,7 @@ a, a:hover {
       margin-bottom: 3em; }
       .jumbotron .footer .footer_right h2 {
         font-weight: 700;
-        font-size: 2em;
-        padding-bottom: 2em; }
+        font-size: 2em; }
       .jumbotron .footer .footer_right .form-control:focus {
         border-color: #2b2b2b;
         box-shadow: inset 0 1px 1px rgba(43, 43, 43, 0.07), 0 0 8px rgba(97, 105, 74, 0.6); }
@@ -366,166 +362,16 @@ a, a:hover {
         font-size: 0.8em; }
 
 /*jumbotron*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 350px) {
   .jumbotron {
     /*header */
     /*who */
     /*services*/
     /*clients*/
     /*blog*/ }
-    .jumbotron .header .header_text h3 {
-      padding: 0; }
-    .jumbotron .header .header_text h1 {
-      font-size: 2em; }
-    .jumbotron .header .header_text h2 {
-      font-size: 1.4em; }
-    .jumbotron .header .header_text p {
-      padding-top: 0;
-      padding-bottom: 0; }
-    .jumbotron .header .header_image #dancer {
-      display: none; }
-    .jumbotron .who .who_left, .jumbotron .who .who_right {
-      padding: 0; }
-    .jumbotron .who .btn_who {
-      margin-bottom: 2em; }
-    .jumbotron .services .service_section {
-      padding: 0; }
-      .jumbotron .services .service_section img {
-        padding-bottom: 1.3em; }
-      .jumbotron .services .service_section p {
-        padding-bottom: 3em; }
-    .jumbotron .clients p {
-      padding: 0;
-      margin-bottom: 5em; }
-    .jumbotron .clients .logo {
-      margin-bottom: 2.5em; }
-    .jumbotron .blog .blog_left {
-      padding: 0; }
-      .jumbotron .blog .blog_left .black_rect {
-        margin-bottom: 2em; }
-    .jumbotron .blog .blog_right {
-      padding: 0; }
-      .jumbotron .blog .blog_right .back_rect h2 {
-        padding: 0; }
-    .jumbotron .footer .footer_right h2 {
-      margin-top: 2em; }
-    .jumbotron .footer .footer_right .btn_footer {
-      margin-bottom: 5em; } }
-/* 600 px*/
-@media only screen and (max-width: 400px) {
-  .jumbotron {
-    /*header */
-    /*who */
-    /*services*/
-    /*clients*/
-    /*blog*/
-    /*footer*/ }
-    .jumbotron .navbar {
-      padding: 0; }
     .jumbotron .header {
-      padding: 3em .5em 0 .5em; }
-      .jumbotron .header .header_image #dancer {
-        display: none; }
-    .jumbotron .who {
-      padding: 5em 1em 0 1em; }
-    .jumbotron .services {
-      padding: 0 .5em 0 .5em; }
-    .jumbotron .profiles h2 {
-      padding: 0 2em; }
-    .jumbotron .clients {
-      padding: 0 .5em 0 .5em; }
-      .jumbotron .clients .logo {
-        margin-bottom: 4em; }
-    .jumbotron .blog {
-      padding: 3em .5em 3em .5em; }
-      .jumbotron .blog .blog_right .back_rect h5 {
-        display: none; }
-    .jumbotron .footer {
-      padding: 3em .5em 3em .5em; }
-      .jumbotron .footer .footer_right {
-        padding-left: 0; } }
-/* 400px*/
-@media only screen and (max-width: 500px) {
-  .jumbotron {
-    /*header */
-    /*who */
-    /*services*/
-    /*clients*/
-    /*blog*/
-    /*footer*/ }
-    .jumbotron .navbar {
-      padding: 0; }
-    .jumbotron .header {
-      padding: 10em 5em 5em 5em; }
-      .jumbotron .header .header_image #dancer {
-        display: none; }
-    .jumbotron .who {
-      padding: 5em; }
-    .jumbotron .services {
-      padding: 1em 5em 5em 5em; }
-    .jumbotron .profiles h2 {
-      padding: 0 2em; }
-    .jumbotron .clients {
-      padding: 0 5em 0 5em; }
-      .jumbotron .clients .logo {
-        margin-bottom: 4em; }
-    .jumbotron .blog {
-      padding: 3em 5em 3em 5em; }
-    .jumbotron .footer {
-      padding: 3em 5em 3em 5em; }
-      .jumbotron .footer .footer_left .info_section .footer_info_icon {
-        margin-top: 0; }
-        .jumbotron .footer .footer_left .info_section .footer_info_icon .footer_left_text {
-          margin-top: 0; }
-      .jumbotron .footer .footer_right {
-        padding-left: 0; } }
-/* 500px*/
-@media only screen and (max-width: 700px) {
-  .jumbotron {
-    /*header */
-    /*who */
-    /*services*/
-    /*clients*/
-    /*blog*/ }
-    .jumbotron .header .header_text h3 {
-      padding: 0; }
-    .jumbotron .header .header_text h1 {
-      font-size: 2em; }
-    .jumbotron .header .header_text h2 {
-      font-size: 1.4em; }
-    .jumbotron .header .header_text p {
-      padding-top: 0;
-      padding-bottom: 0; }
-    .jumbotron .header .header_image #dancer {
-      display: none; }
-    .jumbotron .who .who_left, .jumbotron .who .who_right {
-      padding: 0; }
-    .jumbotron .who .btn_who {
-      margin-bottom: 2em; }
-    .jumbotron .services .service_section {
-      padding: 0; }
-      .jumbotron .services .service_section img {
-        padding-bottom: 1.3em; }
-      .jumbotron .services .service_section p {
-        padding-bottom: 3em; }
-    .jumbotron .clients p {
-      padding: 0;
-      margin-bottom: 5em; }
-    .jumbotron .clients .logo {
-      margin-bottom: 2.5em; }
-    .jumbotron .blog .blog_left {
-      padding: 0; }
-      .jumbotron .blog .blog_left .black_rect {
-        margin-bottom: 2em; }
-    .jumbotron .blog .blog_right {
-      padding: 0; }
-      .jumbotron .blog .blog_right .back_rect h2 {
-        padding: 0; }
-    .jumbotron .footer .footer_right h2 {
-      margin-top: 2em; }
-    .jumbotron .footer .footer_right .btn_footer {
-      margin-bottom: 5em; } }
-/* 700 px*/
+      padding: 0; } }
+/* 350 px*/
 @media only screen and (max-width: 767px) {
   .jumbotron {
     /*header */
@@ -533,106 +379,59 @@ a, a:hover {
     /*services*/
     /*clients*/
     /*blog*/ }
-    .jumbotron .header .header_text h3 {
-      padding: 0; }
-    .jumbotron .header .header_text h1 {
-      font-size: 2em; }
-    .jumbotron .header .header_text h2 {
-      font-size: 1.4em; }
-    .jumbotron .header .header_text p {
-      padding-top: 0;
-      padding-bottom: 0; }
-    .jumbotron .header .header_image #dancer {
-      display: none; }
-    .jumbotron .who .who_right {
-      padding-left: 0; }
-    .jumbotron .who .btn_who {
-      margin-bottom: 2em; }
-    .jumbotron .services .service_section {
-      padding: 0; }
-      .jumbotron .services .service_section img {
-        padding-bottom: 1.3em; }
-      .jumbotron .services .service_section p {
-        padding-bottom: 3em; }
-    .jumbotron .clients p {
-      padding: 0;
-      margin-bottom: 5em; }
-    .jumbotron .clients .logo {
-      margin-bottom: 2.5em; }
-    .jumbotron .blog .blog_left {
-      padding-right: 0; }
-      .jumbotron .blog .blog_left .black_rect {
-        margin-bottom: 2em; }
-    .jumbotron .blog .blog_right {
-      padding: 0; }
-      .jumbotron .blog .blog_right .back_rect h2 {
+    .jumbotron .navbar {
+      padding: 0 2em; }
+    .jumbotron .header {
+      padding: 2em; }
+      .jumbotron .header .header_text h1 {
+        font-size: 2em; }
+      .jumbotron .header .header_text p {
         padding: 0; }
-    .jumbotron .footer .footer_right h2 {
-      margin-top: 2em; }
-    .jumbotron .footer .footer_right .btn_footer {
-      margin-bottom: 5em; } }
-/* 767 px*/
-@media only screen and (max-width: 800px) {
-  .jumbotron {
-    /*header */
-    /*who */
-    /*services*/
-    /*clients*/
-    /*blog*/ }
-    .jumbotron .navbar {
-      padding: 0 1em; }
-    .jumbotron .header .header_text h3 {
-      padding: 0; }
-    .jumbotron .header .header_text h1 {
-      font-size: 2em; }
-    .jumbotron .header .header_text h2 {
-      font-size: 1.4em; }
-    .jumbotron .header .header_text p {
-      padding-top: 0;
-      padding-bottom: 0; }
-    .jumbotron .who .who_left, .jumbotron .who .who_right {
-      padding: 0; }
-    .jumbotron .who .who_right {
-      padding-left: 3em; }
-    .jumbotron .who .who_left {
-      padding-right: 3em; }
-    .jumbotron .who .btn_who {
-      margin-bottom: 2em; }
-    .jumbotron .services .service_section {
-      padding: 0; }
-      .jumbotron .services .service_section .col-sm-3 {
-        padding: 0 0 0 3em; }
-      .jumbotron .services .service_section h5 {
-        font-size: 1em; }
-      .jumbotron .services .service_section img {
-        padding-bottom: 1.3em; }
-      .jumbotron .services .service_section p {
-        padding-bottom: 3em; }
-    .jumbotron .clients p {
-      padding: 0;
-      margin-bottom: 5em; }
-    .jumbotron .clients .logo {
-      margin-bottom: 2.5em; }
-    .jumbotron .blog .blog_left {
-      padding: 0 1em 0 0; }
+      .jumbotron .header .header_image #dancer {
+        display: none; }
+    .jumbotron .who {
+      padding: 3em 3em 2em 3em; }
+      .jumbotron .who .who_right {
+        padding: 2em 0; }
+    .jumbotron .services {
+      padding: 0 3em 2em 3em; }
+      .jumbotron .services .service_section {
+        padding: 0; }
+        .jumbotron .services .service_section img {
+          padding-bottom: 1.3em; }
+        .jumbotron .services .service_section p {
+          padding-bottom: 3em; }
+    .jumbotron .clients {
+      padding: 0 3em 2em 3em; }
+      .jumbotron .clients p {
+        padding: 0;
+        margin-bottom: 5em; }
+      .jumbotron .clients .logo {
+        margin-bottom: 2.5em; }
+    .jumbotron .blog {
+      padding: 3em 3em 2em 3em; }
       .jumbotron .blog .blog_left .gray_rect {
-        width: 100%; }
+        width: 45%;
+        margin-right: 5%;
+        margin-bottom: 10%; }
+        .jumbotron .blog .blog_left .gray_rect h5 {
+          font-size: 0.8em; }
+        .jumbotron .blog .blog_left .gray_rect h4 {
+          font-size: 1.3em; }
       .jumbotron .blog .blog_left .black_rect {
-        margin-bottom: 2em;
-        width: 100%; }
-    .jumbotron .blog .blog_right {
-      padding: 0 0 1em 0; }
-      .jumbotron .blog .blog_right .back_rect {
-        height: 20em; }
-        .jumbotron .blog .blog_right .back_rect h2 {
-          padding: 0;
-          font-size: 2em; }
-        .jumbotron .blog .blog_right .back_rect h5 {
-          font-size: 1em; }
-    .jumbotron .footer .footer_right .btn_footer {
-      margin-bottom: 5em; } }
-/* 800 px*/
-@media only screen and (max-width: 1050px) {
+        width: 45%;
+        margin-left: 5%;
+        margin-bottom: 10%; }
+        .jumbotron .blog .blog_left .black_rect h5 {
+          font-size: 0.8em; }
+        .jumbotron .blog .blog_left .black_rect h4 {
+          font-size: 1.3em; }
+    .jumbotron .footer {
+      padding: 3em 3em 2em 3em; }
+      .jumbotron .footer .footer_right h2 {
+        padding: 1em 0 1em 0; } }
+/* 767 px*/
+@media only screen and (min-width: 768px) {
   .jumbotron {
     /*header */
     /*who */
@@ -652,12 +451,8 @@ a, a:hover {
       padding-bottom: 0; }
     .jumbotron .who .who_left, .jumbotron .who .who_right {
       padding: 0; }
-    .jumbotron .who .who_right {
-      padding-left: 3em; }
-    .jumbotron .who .who_left {
-      padding-right: 3em; }
     .jumbotron .who .btn_who {
-      margin-bottom: 2em; }
+      margin-bottom: 2.5em; }
     .jumbotron .services .service_section {
       padding: 0; }
       .jumbotron .services .service_section .col-sm-3 {
