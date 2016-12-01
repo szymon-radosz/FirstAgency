@@ -39,9 +39,12 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
       opacity: 1; }
     .jumbotron .transparent .navbar-brand h3 {
       font-weight: 700;
-      font-size: 2em; }
+      font-size: 2em;
+      color: #ffffff; }
       .jumbotron .transparent .navbar-brand h3 span {
         color: #0081ff; }
+    .jumbotron .transparent .navbar-brand h3:hover {
+      color: #e3e3e3; }
     .jumbotron .transparent .navbar-brand:hover {
       border-top: none; }
     .jumbotron .transparent a {
@@ -338,7 +341,8 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
   .jumbotron {
     /*blog*/ }
     .jumbotron .header {
-      padding: 0; }
+      padding: 0;
+      height: auto; }
     .jumbotron .blog .blog_left .black_rect {
       margin: 0; }
     .jumbotron .blog .blog_right .back_rect {
@@ -499,5 +503,6 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
       padding-top: 5em; }
     .jumbotron .blog .blog_right .back_rect h5 {
       padding-top: 1em; } }
+/* > 1050px*/
 
 /*# sourceMappingURL=style.css.map */

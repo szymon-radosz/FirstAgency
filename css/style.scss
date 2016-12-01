@@ -35,9 +35,13 @@ a,a:hover,a:active,.navbar-header,.navbar-default .navbar-nav > li > a,.navbar-d
       h3{
         font-weight: 700;
         font-size:2em;
+        color:$white;
         span{
           color: #0081ff;
         }
+      }
+      h3:hover{
+        color: #e3e3e3;
       }
     }
     .navbar-brand:hover{
@@ -432,6 +436,7 @@ a,a:hover,a:active,.navbar-header,.navbar-default .navbar-nav > li > a,.navbar-d
   .jumbotron{
     .header{
       padding:0;
+      height:auto;
     }
     .blog{
       .blog_left{
@@ -692,5 +697,5 @@ a,a:hover,a:active,.navbar-header,.navbar-default .navbar-nav > li > a,.navbar-d
       }
     }
   }
-}
+}/* > 1050px*/
 
