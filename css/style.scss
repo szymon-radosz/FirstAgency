@@ -433,18 +433,6 @@ a,a:hover,a:active,.navbar-header,.navbar-default .navbar-nav > li > a,.navbar-d
     .header{
       padding:0;
     }
-      .header_text{
-
-    }/*header */
-    .who{
-
-    }/*who */
-    .services{
-
-    }/*services*/
-    .clients{
-
-    }/*clients*/
     .blog{
       .blog_left{
         .black_rect{
@@ -469,12 +457,6 @@ a,a:hover,a:active,.navbar-header,.navbar-default .navbar-nav > li > a,.navbar-d
         }
       }
     }/*blog*/
-    .footer{
-      .footer_right{
-        .btn_footer{
-        }
-      }
-    }
   }
 }/* 350 px*/
 @media only screen and (max-width: 767px) {
@@ -586,8 +568,11 @@ a,a:hover,a:active,.navbar-header,.navbar-default .navbar-nav > li > a,.navbar-d
 
     }/*header */
     .who{
-      .who_left,.who_right{
-        padding:0;
+      .who_left{
+        padding-right:1em;
+      }
+      .who_right{
+        padding-left:1em;
       }
       .btn_who{
         margin-bottom:2.5em;
@@ -622,20 +607,27 @@ a,a:hover,a:active,.navbar-header,.navbar-default .navbar-nav > li > a,.navbar-d
     .blog{
       .blog_left{
         padding:0 1em 0 0;
+        .blog_default{
+          height:21em;
+        }
+        .blue_rect{
+          height:20em;
+        }
         .gray_rect{
-          width:45%;
-          margin-right:5%;
+          width:100%;
+          margin:1em 0 0 0;
+          height:12em;
         }
         .black_rect{
-          margin-bottom:2em;
-          width:45%;
-          margin-left:5%;
+          margin:1em 0;
+          width:100%;
+          height:12em;
         }
       }
       .blog_right{
         padding:0 0 1em 0;
         .back_rect{
-          height:29.3em;
+          height: 41em;
 
           h2{
             padding:0;
@@ -643,6 +635,13 @@ a,a:hover,a:active,.navbar-header,.navbar-default .navbar-nav > li > a,.navbar-d
           }
           h5{
             font-size: 1em;
+          }
+        }
+        .pink_rect{
+          margin:1em 0;
+          height:25em;
+          p{
+            margin-bottom:13.5em;
           }
         }
       }
@@ -655,4 +654,43 @@ a,a:hover,a:active,.navbar-header,.navbar-default .navbar-nav > li > a,.navbar-d
       }
     }
   }
-}/* 1050 px*/
+}/* >767 px*/
+@media only screen and (min-width: 1050px) {
+  .jumbotron{
+    .blog{
+      .blog_left{
+        .blog_default{
+          height:15em;
+        }
+        .blue_rect{
+          height:15em;
+        }
+        .gray_rect{
+          width:48%;
+          margin-right:2%;
+          height:15em;
+        }
+        .black_rect{
+          width:48%;
+          margin-left:2%;
+          height:15em;
+        }
+      }
+      .blog_right{
+        .pink_rect{
+          height:15em;
+        }
+        .back_rect{
+          height:30em;
+          h2{
+            padding-top:5em;
+          }
+          h5{
+            padding-top:1em;
+          }
+        }
+      }
+    }
+  }
+}
+
