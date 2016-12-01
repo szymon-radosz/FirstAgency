@@ -7,7 +7,7 @@ body{
   padding:0;
   margin:0;
 }
-a,a:hover,a:active,.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+a,a:hover,a:active,.navbar-header,.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: $white;  /*Sets the text hover color on navbar*/
 }
 .lecerli{
@@ -191,6 +191,7 @@ a,a:hover,a:active,.navbar-default .navbar-nav > li > a,.navbar-default .navbar-
           color: #000;
           font-size:1em;
           padding-bottom: 2em;
+          margin-bottom:0;
         }
       }
       .blue_rect{
@@ -446,10 +447,26 @@ a,a:hover,a:active,.navbar-default .navbar-nav > li > a,.navbar-default .navbar-
     }/*clients*/
     .blog{
       .blog_left{
-
+        .black_rect{
+          margin:0;
+        }
       }
       .blog_right{
-
+        .back_rect{
+          height:70%;
+          h2{
+            padding:0;
+            font-size:2em;
+          }
+          h5{
+            font-size: .9em;
+          }
+        }
+        .pink_rect{
+          p{
+            font-size: .8em;
+          }
+        }
       }
     }/*blog*/
     .footer{
@@ -513,9 +530,8 @@ a,a:hover,a:active,.navbar-default .navbar-nav > li > a,.navbar-default .navbar-
       padding:3em 3em 2em 3em;
       .blog_left {
         .gray_rect {
-          width: 45%;
-          margin-right: 5%;
-          margin-bottom: 10%;
+          width: 100%;
+          margin: 2em 0 2em 0;
           h5{
             font-size:0.8em;
           }
@@ -524,9 +540,9 @@ a,a:hover,a:active,.navbar-default .navbar-nav > li > a,.navbar-default .navbar-
           }
         }
         .black_rect {
-          width: 45%;
-          margin-left: 5%;
-          margin-bottom: 10%;
+          width: 100%;
+          margin:0 0 2em 0;
+
           h5{
             font-size:0.8em;
           }
@@ -607,17 +623,19 @@ a,a:hover,a:active,.navbar-default .navbar-nav > li > a,.navbar-default .navbar-
       .blog_left{
         padding:0 1em 0 0;
         .gray_rect{
-          width:100%;
+          width:45%;
+          margin-right:5%;
         }
         .black_rect{
           margin-bottom:2em;
-          width:100%;
+          width:45%;
+          margin-left:5%;
         }
       }
       .blog_right{
         padding:0 0 1em 0;
         .back_rect{
-          height:20em;
+          height:29.3em;
 
           h2{
             padding:0;

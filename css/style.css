@@ -6,7 +6,7 @@ body {
   padding: 0;
   margin: 0; }
 
-a, a:hover, a:active, .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: #ffffff;
   /*Sets the text hover color on navbar*/ }
 
@@ -155,7 +155,8 @@ a, a:hover, a:active, .navbar-default .navbar-nav > li > a, .navbar-default .nav
       .jumbotron .blog .blog_left .blog_default p {
         color: #000;
         font-size: 1em;
-        padding-bottom: 2em; }
+        padding-bottom: 2em;
+        margin-bottom: 0; }
     .jumbotron .blog .blog_left .blue_rect {
       background-color: #007EF9;
       padding: 2em 1.2em 0.005em 1.2em; }
@@ -341,7 +342,18 @@ a, a:hover, a:active, .navbar-default .navbar-nav > li > a, .navbar-default .nav
     /*clients*/
     /*blog*/ }
     .jumbotron .header {
-      padding: 0; } }
+      padding: 0; }
+    .jumbotron .blog .blog_left .black_rect {
+      margin: 0; }
+    .jumbotron .blog .blog_right .back_rect {
+      height: 70%; }
+      .jumbotron .blog .blog_right .back_rect h2 {
+        padding: 0;
+        font-size: 2em; }
+      .jumbotron .blog .blog_right .back_rect h5 {
+        font-size: .9em; }
+    .jumbotron .blog .blog_right .pink_rect p {
+      font-size: .8em; } }
 /* 350 px*/
 @media only screen and (max-width: 767px) {
   .jumbotron {
@@ -382,17 +394,15 @@ a, a:hover, a:active, .navbar-default .navbar-nav > li > a, .navbar-default .nav
     .jumbotron .blog {
       padding: 3em 3em 2em 3em; }
       .jumbotron .blog .blog_left .gray_rect {
-        width: 45%;
-        margin-right: 5%;
-        margin-bottom: 10%; }
+        width: 100%;
+        margin: 2em 0 2em 0; }
         .jumbotron .blog .blog_left .gray_rect h5 {
           font-size: 0.8em; }
         .jumbotron .blog .blog_left .gray_rect h4 {
           font-size: 1.3em; }
       .jumbotron .blog .blog_left .black_rect {
-        width: 45%;
-        margin-left: 5%;
-        margin-bottom: 10%; }
+        width: 100%;
+        margin: 0 0 2em 0; }
         .jumbotron .blog .blog_left .black_rect h5 {
           font-size: 0.8em; }
         .jumbotron .blog .blog_left .black_rect h4 {
@@ -442,14 +452,16 @@ a, a:hover, a:active, .navbar-default .navbar-nav > li > a, .navbar-default .nav
     .jumbotron .blog .blog_left {
       padding: 0 1em 0 0; }
       .jumbotron .blog .blog_left .gray_rect {
-        width: 100%; }
+        width: 45%;
+        margin-right: 5%; }
       .jumbotron .blog .blog_left .black_rect {
         margin-bottom: 2em;
-        width: 100%; }
+        width: 45%;
+        margin-left: 5%; }
     .jumbotron .blog .blog_right {
       padding: 0 0 1em 0; }
       .jumbotron .blog .blog_right .back_rect {
-        height: 20em; }
+        height: 29.3em; }
         .jumbotron .blog .blog_right .back_rect h2 {
           padding: 0;
           font-size: 2em; }
