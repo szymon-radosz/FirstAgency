@@ -13,8 +13,9 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
 .lecerli {
   font-family: 'Leckerli One', cursive; }
 
-.btn {
-  color: #ffffff; }
+.btn, .btn:hover {
+  color: #ffffff;
+  transition-duration: 0.3s; }
 
 .jumbotron {
   margin: 0;
@@ -31,11 +32,11 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
     background: transparent;
     border: none;
     padding: 0 9em; }
-    .jumbotron .transparent #menu_line1, .jumbotron .transparent #menu_line2, .jumbotron .transparent #menu_line3, .jumbotron .transparent #menu_line4, .jumbotron .transparent #menu_line5, .jumbotron .transparent #menu_line6 {
+    .jumbotron .transparent .menu_line1, .jumbotron .transparent .menu_line2, .jumbotron .transparent .menu_line3, .jumbotron .transparent .menu_line4, .jumbotron .transparent .menu_line5, .jumbotron .transparent .menu_line6 {
       height: 3px;
       background-color: #0081ff;
       opacity: 0; }
-    .jumbotron .transparent #menu_link1:hover > #menu_line1, .jumbotron .transparent #menu_link2:hover > #menu_line2, .jumbotron .transparent #menu_link3:hover > #menu_line3, .jumbotron .transparent #menu_link4:hover > #menu_line4, .jumbotron .transparent #menu_link5:hover > #menu_line5, .jumbotron .transparent #menu_link6:hover > #menu_line6 {
+    .jumbotron .transparent .menu_link1:hover > .menu_line1, .jumbotron .transparent .menu_link2:hover > .menu_line2, .jumbotron .transparent .menu_link3:hover > .menu_line3, .jumbotron .transparent .menu_link4:hover > .menu_line4, .jumbotron .transparent .menu_link5:hover > .menu_line5, .jumbotron .transparent .menu_link6:hover > .menu_line6 {
       opacity: 1; }
     .jumbotron .transparent .navbar-brand h3 {
       font-weight: 700;
@@ -85,37 +86,33 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
     .jumbotron .header .header_image #dancer {
       width: 100%;
       padding-top: 2em; }
-  .jumbotron .profiles h3, .jumbotron .profiles h2 {
-    text-align: center; }
-  .jumbotron .profiles h3 {
-    color: #565656;
-    padding-top: 2em;
-    font-size: 1.8em;
-    margin-bottom: 0; }
-  .jumbotron .profiles h2 {
-    color: #000;
-    font-weight: 700;
-    font-size: 1.9em;
-    padding-bottom: 0.5em; }
-  .jumbotron .profiles .col-sm-6, .jumbotron .profiles .col-sm-3 {
-    padding: 0; }
-  .jumbotron .profiles .profile_image {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    -webkit-filter: brightness(100%); }
-  .jumbotron .profiles .profile_image:hover {
-    -webkit-filter: brightness(60%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease; }
-  .jumbotron .profiles .profile_image_1, .jumbotron .profiles .profile_image_5 {
-    height: 17em; }
-  .jumbotron .profiles .profile_image_2, .jumbotron .profiles .profile_image_3, .jumbotron .profiles .profile_image_6 {
-    height: 10em; }
-  .jumbotron .profiles .profile_image_4 {
-    height: 27em; }
+  .jumbotron .profiles {
+    background-color: #ffffff; }
+    .jumbotron .profiles h3, .jumbotron .profiles h2 {
+      text-align: center; }
+    .jumbotron .profiles h3 {
+      color: #565656;
+      padding-top: 2em;
+      font-size: 1.8em;
+      margin-bottom: 0; }
+    .jumbotron .profiles h2 {
+      color: #000;
+      font-weight: 700;
+      font-size: 1.9em;
+      padding-bottom: 0.5em; }
+    .jumbotron .profiles .col-sm-6, .jumbotron .profiles .col-sm-3 {
+      padding: 0; }
+    .jumbotron .profiles .profile_image {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      -webkit-filter: brightness(100%); }
+    .jumbotron .profiles .profile_image:hover {
+      -webkit-filter: brightness(60%);
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease; }
   .jumbotron .clients {
     background: url(../images/mountain_bg.png) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -141,6 +138,7 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
   .jumbotron .blog {
     padding: 5em 10em 6em 10em;
     text-align: center;
+    background-color: #ffffff;
     /*blog_left*/
     /*blog_right*/ }
     .jumbotron .blog .blog_left .blue_rect:hover, .jumbotron .blog .blog_left .gray_rect:hover, .jumbotron .blog .blog_left .black_rect:hover {
@@ -355,11 +353,37 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
     .jumbotron .blog .blog_right .pink_rect p {
       font-size: .8em; } }
 /* 350 px*/
+@media only screen and (max-width: 420px) {
+  .profiles .col-xs-6, .profiles .col-xs-3 {
+    width: 100%; }
+  .profiles .profile_image_1, .profiles .profile_image_5, .profiles .profile_image_2, .profiles .profile_image_3, .profiles .profile_image_6, .profiles .profile_image_4 {
+    height: 20em !important; }
+
+  /* profiles*/ }
+@media only screen and (min-width: 421px) {
+  .profiles .profile_image_1, .profiles .profile_image_5 {
+    height: 10em; }
+  .profiles .profile_image_2, .profiles .profile_image_3, .profiles .profile_image_6 {
+    height: 6em; }
+  .profiles .profile_image_4 {
+    height: 16em; }
+
+  /* profiles*/ }
+@media only screen and (min-width: 600px) {
+  .profiles .profile_image_1, .profiles .profile_image_5 {
+    height: 13em; }
+  .profiles .profile_image_2, .profiles .profile_image_3, .profiles .profile_image_6 {
+    height: 9em; }
+  .profiles .profile_image_4 {
+    height: 22em; }
+
+  /* profiles*/ }
 @media only screen and (max-width: 767px) {
   .jumbotron {
     /*header */
     /*who */
     /*services*/
+    /* profiles*/
     /*clients*/
     /*blog*/ }
     .jumbotron .navbar {
@@ -384,6 +408,12 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
           padding-bottom: 1.3em; }
         .jumbotron .services .service_section p {
           padding-bottom: 3em; }
+    .jumbotron .profiles .profile_image_1, .jumbotron .profiles .profile_image_5 {
+      height: 14em; }
+    .jumbotron .profiles .profile_image_2, .jumbotron .profiles .profile_image_3, .jumbotron .profiles .profile_image_6 {
+      height: 10em; }
+    .jumbotron .profiles .profile_image_4 {
+      height: 24em; }
     .jumbotron .clients {
       padding: 0 3em 2em 3em; }
       .jumbotron .clients p {
@@ -417,6 +447,7 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
     /*header */
     /*who */
     /*services*/
+    /* profiles*/
     /*clients*/
     /*blog*/ }
     .jumbotron .navbar {
@@ -446,6 +477,12 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
         padding-bottom: 1.3em; }
       .jumbotron .services .service_section p {
         padding-bottom: 3em; }
+    .jumbotron .profiles .profile_image_1, .jumbotron .profiles .profile_image_5 {
+      height: 22em; }
+    .jumbotron .profiles .profile_image_2, .jumbotron .profiles .profile_image_3, .jumbotron .profiles .profile_image_6 {
+      height: 15em; }
+    .jumbotron .profiles .profile_image_4 {
+      height: 37em; }
     .jumbotron .clients p {
       padding: 0;
       margin-bottom: 5em; }
