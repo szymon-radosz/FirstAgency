@@ -8,3 +8,6 @@ Coding PSD website design
 
 ## Author
 * Radosz Szymon
+
+## Website screenshot
+https://postimg.org/image/jgrqi4unn/
