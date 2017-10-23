@@ -23,6 +23,9 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
 .textarea_field{
     padding: 15px 18px !important; }
 
+.jumbotron .header, .jumbotron .who, .jumbotron .services, .jumbotron .profiles, .jumbotron .clients, .jumbotron .blog, .jumbotron .footer{
+  margin:0; } 
+
 .jumbotron {
   margin: 0;
   padding: 0;
@@ -62,7 +65,6 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin: 0;
     padding: 6em 10em 0 10em;
     height: 95vh; }
     .jumbotron .header .header_text {
