@@ -7,8 +7,10 @@ $(document).ready(function(){
             scroll_start = $(this).scrollTop();
             if(scroll_start > offset.top) {
                 $(".navbar-default").css('background-color', '#BEBEBE');
+                $('.navbar-nav').css('background-color', '#BEBEBE');
             } else {
                 $('.navbar-default').css('background-color', 'transparent');
+                $('.navbar-nav').css('background-color', '#000');
             }
         });
     }

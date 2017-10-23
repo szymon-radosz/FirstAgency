@@ -396,6 +396,8 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
     /*blog*/ }
     .jumbotron .navbar {
       padding: 0 2em; }
+    .jumbotron .navbar-collapse .navbar-nav{
+      background-color: #000; }
     .jumbotron .header {
       padding: 2em; }
       .jumbotron .header .header_text h1 {
@@ -460,6 +462,7 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
     /*blog*/ }
     .jumbotron .navbar {
       padding: 0 1em; }
+   
     .jumbotron .header .header_text h3 {
       padding: 0; }
     .jumbotron .header .header_text h1 {
