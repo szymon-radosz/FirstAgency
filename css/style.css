@@ -92,8 +92,11 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
       .jumbotron .header .header_text .btn_header:hover {
         background-color: #0081ff; }
     .jumbotron .header .header_image #dancer {
-      width: 100%;
+      max-width: 250px;
       padding-top: 2em; }
+      .jumbotron .header .header_image {
+        width: 40%;
+      }
   .jumbotron .profiles {
     background-color: #ffffff; }
     .jumbotron .profiles h3, .jumbotron .profiles h2 {
@@ -465,6 +468,9 @@ a, a:hover, a:active, .navbar-header, .navbar-default .navbar-nav > li > a, .nav
    
     .jumbotron .header .header_text h3 {
       padding: 0; }
+      .jumbotron .header .header_text{
+        width: 60%;
+      }
     .jumbotron .header .header_text h1 {
       font-size: 2em; }
     .jumbotron .header .header_text h2 {
