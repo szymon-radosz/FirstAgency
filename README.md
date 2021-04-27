@@ -6,8 +6,5 @@ Coding PSD website design
 * Bootstrap
 * Javascript & jQuery
 
-## Author
-* Radosz Szymon
-
-## Website screenshot
-https://postimg.org/image/jgrqi4unn/
+## Preview
+![Screenshot](desktop.png)
